@@ -40,7 +40,7 @@ def init_logger(debug: bool):
     """
     if debug:
         logging_level = logging.DEBUG
-        logging_format = "[%(asctime)s] %(levelname)-5s | %(filename)17s:%(lineno)-4s | %(message)s"
+        logging_format = "[%(asctime)s] %(levelname)-5s | %(filename)15s#%(lineno)-4s: %(message)s"
 
     else:
         logging_level = logging.INFO

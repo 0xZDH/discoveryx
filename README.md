@@ -47,7 +47,7 @@ options:
 * **subfinder**: generate a set of all possible subdomains based on a given domain or set of domains
 * **dnsx**: filter active domains from the given set of passive (sub)domains
 * **naabu**: scan for open http/s ports based on a given ip/domain or set of ips/domains
-* **httpx**: filter active domains running http/s webservers based on a given set of ips/domains
+* **httpx**: filter active domains running http/s webservers based on the given set of ips/domains
 * **katana**: crawl all potential paths based the given set of webservers
 * **nuclei**: scan for vulnerabilities based the given set of webservers
 

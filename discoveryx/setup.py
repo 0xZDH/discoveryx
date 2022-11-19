@@ -122,7 +122,7 @@ class Setup:
 
             # Get the total bytes returned so we can build a progress bar
             response_size_bytes = int(response.headers.get("content-length", 0))
-            block_size = 1024  # 1 Kibibyte
+            block_size = 1024
 
             # tqdm progress bar based on returned bytes
             progress_bar = tqdm(total=response_size_bytes, unit="iB", unit_scale=True)
